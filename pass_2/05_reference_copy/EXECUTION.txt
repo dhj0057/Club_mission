@@ -1,0 +1,20 @@
+[1] 참조 대입
+same student: true
+original score: 100
+
+[2] 목록만 복사
+same list: false
+same student: true
+source score: 100
+sizes: source=1, copy=0
+
+[3] List.copyOf
+clear: blocked
+source score: 100
+sizes: source=2, fixed=1
+
+[4] 학생까지 복사
+same student: false
+scores: source=85, copy=100
+
+PASS: 19 checks
